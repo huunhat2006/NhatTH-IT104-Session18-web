@@ -1,0 +1,24 @@
+.modal-overlay-update {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content-update {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.modal-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
